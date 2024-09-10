@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.products-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.products-img {
+  width: 150px;
+  height: 200px;
+}
+@media screen and (min-width: 768px) {
+  .products-img {
+    width: 200px;
+    height: 250px;
+  }
+}
